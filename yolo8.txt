@@ -1,0 +1,51 @@
+from google.colab import drive
+drive.mount('/content/gdrive')
+
+import zipfile
+zip_ref = zipfile.ZipFile('/content/people.v1i.yolov8.zip', 'r')
+zip_ref.extractall('/content')
+zip_ref.close()
+
+
+!pip install ultralytics 
+
+from ultralytics import YOLO
+
+model=YOLO('/content/gdrive/MyDrive/Object Detection using YoloV8/models/segmentation/yolov8x-seg.pt')
+
+results=model.train(data='/content/data.yaml',task='segment',epochs=25,plots=True)
+
+import os
+from IPython import display
+display.clear_output()
+
+from IPython.display import display,Image
+
+
+Image(f'/content/runs/segment/train/BoxF1_curve.png',width=600)
+
+
+import pandas as pd
+df=pd.read_csv('/content/runs/segment/train/results.csv')
+df
+
+model=YOLO('/content/runs/segment/train/weights/best.pt')
+
+results=model.predict(source='/content/test/images',conf=0.5)
+
+model.predict(source='/content/Busy people walking the city streets in London, HD Stock Footage.mp4')
+
+
+
+!nvidia-smi
+
+
+
+
+from ultralytics import YOLO
+from ultralytics.yolo.v8.detect.predict import Detection
+import cv2
+import DetectionPredictor
+
+model=YOLO('best.pt')
+model.predict(source=0,show=True,conf=0.5)
