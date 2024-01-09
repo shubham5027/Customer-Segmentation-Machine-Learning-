@@ -1,5 +1,5 @@
- Customer Segmentation using Machine Learning (KMeans Clustering)
-==============================================================
+ Customer Segmentation using Machine Learning 
+===============================================
 
 
 Run This App
