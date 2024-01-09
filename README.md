@@ -1,8 +1,10 @@
  Customer Segmentation using Machine Learning (KMeans Clustering)
 ==============================================================
 
-RUN THIS APP: https://customer-segmentation-machine-learning-webapp-vjvaefg8lhaf7zn2.streamlit.app/
+
+Run This App
 ------------
+https://customer-segmentation-machine-learning-webapp-vjvaefg8lhaf7zn2.streamlit.app/
 
 This repository contains the code and resources for a customer segmentation project using KMeans clustering algorithms. The project includes:
 
