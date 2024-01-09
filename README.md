@@ -8,6 +8,33 @@ This repository contains the code and resources for a customer segmentation proj
 * Evaluation and visualization
 * Deployment of a web application using Streamlit
 
+
+Data Preprocessing
+-----------------
+  
+![newplot (4)](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/462a43ef-45a5-4bd6-a77b-c8401ab6c4b4)
+![newplot](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/b758a966-2ec6-435c-acc0-94c500490096)
+![newplot (1)](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/575c3384-6c35-4ebe-8bf5-25c12b59c4b0)
+![newplot (2)](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/4ed2687c-ecab-49c7-9802-2bfa17b028ac)
+![newplot (3)](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/a201b6dc-54f2-4dee-a410-88b017294e95)
+
+
+Algorithms Analysis
+-----------------
+
+![algorithm](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/61310abc-7a51-4041-ada2-f52e63d50c3b)
+
+
+
+Deployment on Web
+-----------------
+
+![Screenshot 2024-01-09 225746](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/6433787d-06da-4c41-8be3-8400cbf27c30)
+![Screenshot 2024-01-09 224213](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/5e61a9a3-332f-4845-8a3a-2adf783d7bad)
+![Screenshot 2024-01-09 225752](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/643ed342-516f-40f8-906d-88ff32a66bae)
+![Screenshot 2024-01-09 232002](https://github.com/shubham5027/Customer-Segmentation-Machine-Learning-Webapp/assets/132193443/69b7046e-a1fe-4937-8459-8530cda3430a)
+
+
 Prerequisites
 -------------
 
@@ -70,26 +97,6 @@ The evaluation step involves:
 * Visualizing the clusters in 2D and 3D
 * Calculating the Within-Cluster Sum of Squares (WCSS) for each value of `k`
 * Selecting the optimal number of clusters based on the WCSS plot
-
-Web Application
----------------
-
-![Screenshot 2024-01-09 225746](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/ba621cb7-bc9f-4c24-b970-97932961b262)
-![Screenshot 2024-01-09 224151](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/7715787b-568c-431e-a4c3-7c7ea4806699)
-application allows the user to:
-
-
-EDA on the Data
----------------
-![newplot (4)](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/51b671e0-1e8b-4ac6-a3f1-2d72106207ea)
-![newplot (1)](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/5730d159-c598-48f9-aa4b-f1ae109b0394)
-![newplot (2)](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/4ac930f4-6aad-40ae-8e03-e80d89ededd9)
-![newplot](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/a9bc5bf5-eaf3-46f1-93b4-2a83c488d26e)
-![newplot (3)](https://github.com/shubham5027/Customer-Segmentation-using-Machine-Learning/assets/132193443/d292c7f3-f0fa-48d2-bf42-a191f1c14bab)
-
-
-
-
 
 References
 ----------
